@@ -9,8 +9,7 @@ import {expectToFail, wait} from '../../utils/utils';
 const webpackGoodRegEx = /: Compiled successfully./;
 
 export default function() {
-  // TODO(architect): reenable, validate, then delete this test. It is now in devkit/build-webpack.
-  return;
+  // TODO(architect): Delete this test. It is now in devkit/build-webpack.
 
 
   // @filipesilva: This test doesn't work correctly on CircleCI while being ran by the test script.

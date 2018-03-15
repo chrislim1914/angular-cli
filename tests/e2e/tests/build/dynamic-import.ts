@@ -5,7 +5,8 @@ import { updateJsonFile } from '../../utils/project';
 
 
 export default async function() {
-  // TODO(architect): reenable, validate, then delete this test. It is now in devkit/build-webpack.
+  // TODO(architect): The lazy chunk seems to have a different name in devkit/build-webpack.
+  // Investigate, validate, then delete this test.
   return;
 
   // Add a lazy module
